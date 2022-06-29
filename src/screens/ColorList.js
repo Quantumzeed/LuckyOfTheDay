@@ -375,9 +375,9 @@ const ColorList = ({navigation}) => {
           );
         }}
       />
-      {/* <Animated.Text style={{backgroundColor: colorInterpolate}}>
-        test
-      </Animated.Text> */}
+      <View style={styles.randomContainer}>
+        <Text>AAA</Text>
+      </View>
     </SafeAreaView>
   );
 };
@@ -385,9 +385,16 @@ const ColorList = ({navigation}) => {
 export default ColorList;
 
 const styles = StyleSheet.create({
+  randomContainer: {
+    backgroundColor: 'green',
+    width: ITEM_WIDTH + SPACING * 2,
+    height: ITEM_WIDTH * 0.68 - SPACING,
+    borderRadius: 15,
+    padding: 15,
+  },
   container: {
     flex: 1,
-    justifyContent: 'center',
+    justifyContent: 'space-around',
     alignItems: 'center',
     backgroundColor: forground3,
   },
