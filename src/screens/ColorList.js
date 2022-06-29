@@ -71,7 +71,7 @@ const ColorList = ({navigation}) => {
 
           return (
             // <ScrollView>
-            <TouchableOpacity
+            <View
               onPress={() => {
                 //navigation.push('ColorDetail', {item});
               }}
@@ -97,7 +97,7 @@ const ColorList = ({navigation}) => {
                 style={[
                   styles.itemName,
                   ,
-                  ,
+                  {color: item.color},
                   {
                     transform: [{translateX}],
                   },
@@ -109,38 +109,38 @@ const ColorList = ({navigation}) => {
                     <Animated.Text
                       style={[styles.itemBox2, {transform: [{translateX}]}]}>
                       {item.power1 !== '' ? (
-                        <View
+                        <TouchableOpacity
                           style={[
                             styles.itemColor,
                             {backgroundColor: item.power1},
-                          ]}></View>
+                          ]}></TouchableOpacity>
                       ) : (
                         <></>
                       )}
                       {item.power2 !== '' ? (
-                        <View
+                        <TouchableOpacity
                           style={[
                             styles.itemColor,
                             {backgroundColor: item.power2},
-                          ]}></View>
+                          ]}></TouchableOpacity>
                       ) : (
                         <></>
                       )}
                       {item.power3 !== '' ? (
-                        <View
+                        <TouchableOpacity
                           style={[
                             styles.itemColor,
                             {backgroundColor: item.power3},
-                          ]}></View>
+                          ]}></TouchableOpacity>
                       ) : (
                         <></>
                       )}
                       {item.power4 !== '' ? (
-                        <View
+                        <TouchableOpacity
                           style={[
                             styles.itemColor,
                             {backgroundColor: item.power4},
-                          ]}></View>
+                          ]}></TouchableOpacity>
                       ) : (
                         <></>
                       )}
@@ -156,38 +156,38 @@ const ColorList = ({navigation}) => {
                             {transform: [{translateX}]},
                           ]}>
                           {item.work1 !== '' ? (
-                            <View
+                            <TouchableOpacity
                               style={[
                                 styles.itemColor,
                                 {backgroundColor: item.work1},
-                              ]}></View>
+                              ]}></TouchableOpacity>
                           ) : (
                             <></>
                           )}
                           {item.work2 !== '' ? (
-                            <View
+                            <TouchableOpacity
                               style={[
                                 styles.itemColor,
                                 {backgroundColor: item.work2},
-                              ]}></View>
+                              ]}></TouchableOpacity>
                           ) : (
                             <></>
                           )}
                           {item.work3 !== '' ? (
-                            <View
+                            <TouchableOpacity
                               style={[
                                 styles.itemColor,
                                 {backgroundColor: item.work3},
-                              ]}></View>
+                              ]}></TouchableOpacity>
                           ) : (
                             <></>
                           )}
                           {item.work4 !== '' ? (
-                            <View
+                            <TouchableOpacity
                               style={[
                                 styles.itemColor,
                                 {backgroundColor: item.work4},
-                              ]}></View>
+                              ]}></TouchableOpacity>
                           ) : (
                             <></>
                           )}
@@ -200,38 +200,38 @@ const ColorList = ({navigation}) => {
                     <Animated.Text
                       style={[styles.itemBox2, {transform: [{translateX}]}]}>
                       {item.money1 !== '' ? (
-                        <View
+                        <TouchableOpacity
                           style={[
                             styles.itemColor,
                             {backgroundColor: item.money1},
-                          ]}></View>
+                          ]}></TouchableOpacity>
                       ) : (
                         <></>
                       )}
                       {item.money2 !== '' ? (
-                        <View
+                        <TouchableOpacity
                           style={[
                             styles.itemColor,
                             {backgroundColor: item.money2},
-                          ]}></View>
+                          ]}></TouchableOpacity>
                       ) : (
                         <></>
                       )}
                       {item.money3 !== '' ? (
-                        <View
+                        <TouchableOpacity
                           style={[
                             styles.itemColor,
                             {backgroundColor: item.money3},
-                          ]}></View>
+                          ]}></TouchableOpacity>
                       ) : (
                         <></>
                       )}
                       {item.money4 !== '' ? (
-                        <View
+                        <TouchableOpacity
                           style={[
                             styles.itemColor,
                             {backgroundColor: item.money4},
-                          ]}></View>
+                          ]}></TouchableOpacity>
                       ) : (
                         <></>
                       )}
@@ -243,38 +243,38 @@ const ColorList = ({navigation}) => {
                       <Animated.Text
                         style={[styles.itemBox2, {transform: [{translateX}]}]}>
                         {item.love1 !== '' ? (
-                          <View
+                          <TouchableOpacity
                             style={[
                               styles.itemColor,
                               {backgroundColor: item.love1},
-                            ]}></View>
+                            ]}></TouchableOpacity>
                         ) : (
                           <></>
                         )}
                         {item.love2 !== '' ? (
-                          <View
+                          <TouchableOpacity
                             style={[
                               styles.itemColor,
                               {backgroundColor: item.love2},
-                            ]}></View>
+                            ]}></TouchableOpacity>
                         ) : (
                           <></>
                         )}
                         {item.love3 !== '' ? (
-                          <View
+                          <TouchableOpacity
                             style={[
                               styles.itemColor,
                               {backgroundColor: item.love3},
-                            ]}></View>
+                            ]}></TouchableOpacity>
                         ) : (
                           <></>
                         )}
                         {item.love4 !== '' ? (
-                          <View
+                          <TouchableOpacity
                             style={[
                               styles.itemColor,
                               {backgroundColor: item.love4},
-                            ]}></View>
+                            ]}></TouchableOpacity>
                         ) : (
                           <></>
                         )}
@@ -286,38 +286,38 @@ const ColorList = ({navigation}) => {
                     <Animated.Text
                       style={[styles.itemBox2, {transform: [{translateX}]}]}>
                       {item.health1 !== '' ? (
-                        <View
+                        <TouchableOpacity
                           style={[
                             styles.itemColor,
                             {backgroundColor: item.health1},
-                          ]}></View>
+                          ]}></TouchableOpacity>
                       ) : (
                         <></>
                       )}
                       {item.health2 !== '' ? (
-                        <View
+                        <TouchableOpacity
                           style={[
                             styles.itemColor,
                             {backgroundColor: item.health2},
-                          ]}></View>
+                          ]}></TouchableOpacity>
                       ) : (
                         <></>
                       )}
                       {item.health3 !== '' ? (
-                        <View
+                        <TouchableOpacity
                           style={[
                             styles.itemColor,
                             {backgroundColor: item.health3},
-                          ]}></View>
+                          ]}></TouchableOpacity>
                       ) : (
                         <></>
                       )}
                       {item.health4 !== '' ? (
-                        <View
+                        <TouchableOpacity
                           style={[
                             styles.itemColor,
                             {backgroundColor: item.health4},
-                          ]}></View>
+                          ]}></TouchableOpacity>
                       ) : (
                         <></>
                       )}
@@ -329,38 +329,38 @@ const ColorList = ({navigation}) => {
                       <Animated.Text
                         style={[styles.itemBox2, {transform: [{translateX}]}]}>
                         {item.unlucky1 !== '' ? (
-                          <View
+                          <TouchableOpacity
                             style={[
                               styles.itemColor,
                               {backgroundColor: item.unlucky1},
-                            ]}></View>
+                            ]}></TouchableOpacity>
                         ) : (
                           <></>
                         )}
                         {item.unlucky2 !== '' ? (
-                          <View
+                          <TouchableOpacity
                             style={[
                               styles.itemColor,
                               {backgroundColor: item.unlucky2},
-                            ]}></View>
+                            ]}></TouchableOpacity>
                         ) : (
                           <></>
                         )}
                         {item.unlucky3 !== '' ? (
-                          <View
+                          <TouchableOpacity
                             style={[
                               styles.itemColor,
                               {backgroundColor: item.unlucky3},
-                            ]}></View>
+                            ]}></TouchableOpacity>
                         ) : (
                           <></>
                         )}
                         {item.unlucky4 !== '' ? (
-                          <View
+                          <TouchableOpacity
                             style={[
                               styles.itemColor,
                               {backgroundColor: item.unlucky4},
-                            ]}></View>
+                            ]}></TouchableOpacity>
                         ) : (
                           <></>
                         )}
@@ -369,7 +369,7 @@ const ColorList = ({navigation}) => {
                   </View>
                 </Animated.View>
               </Animated.Text>
-            </TouchableOpacity>
+            </View>
 
             // </ScrollView>
           );
@@ -507,7 +507,7 @@ const styles = StyleSheet.create({
     width: ITEM_WIDTH * 0.8,
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'space-evenly',
+    justifyContent: 'space-between',
   },
   itemColor: {
     bottom: SPACING,
@@ -516,8 +516,9 @@ const styles = StyleSheet.create({
     height: 42,
     borderRadius: 26,
     //backgroundColor: 'red',
-    justifyContent: 'center',
+    flexDirection: 'row',
     alignItems: 'center',
+    justifyContent: 'space-between',
     opacity: 0.82,
   },
   text: {

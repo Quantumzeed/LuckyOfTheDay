@@ -7,7 +7,7 @@ export default [
     //image:
     // 'https://images.unsplash.com/photo-1477332552946-cfb384aeaf1c?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470',
     //image:'https://images.unsplash.com/photo-1575578285291-905e55d5a789?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974',
-    color: '#FFFFFF',
+    color: '#FF0000',
     power1: '#FFA500',
     power2: '#FFC0CB',
     power3: '',
@@ -38,7 +38,7 @@ export default [
     name: 'monday',
     image:
       'https://images.unsplash.com/photo-1496692052106-d37cb66ab80c?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974',
-    color: '#000000',
+    color: '#FFFF00',
     power1: '#FFFFFF',
     power2: '',
     power3: '',
@@ -69,7 +69,7 @@ export default [
     name: 'Tuesday',
     image:
       'https://images.unsplash.com/photo-1571080648416-3fda23702c51?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587',
-    color: '#FFFFFF',
+    color: '#C71585',
     power1: '#FF0000',
     power2: '#A52A2A',
     power3: '',
@@ -100,7 +100,7 @@ export default [
     name: 'Wednesday',
     image:
       'https://images.unsplash.com/photo-1594329852649-012d9528deda?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1615',
-    color: '#000000',
+    color: '#008000',
     power1: '#008000',
     power2: '',
     power3: '',
@@ -131,7 +131,7 @@ export default [
     name: 'Thursday',
     image:
       'https://images.unsplash.com/photo-1474140214938-f0295cf3d18e?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587',
-    color: '#FFFFFF',
+    color: '#FFA500',
     power1: '#FFFF00',
     power2: '',
     power3: '',
@@ -162,7 +162,7 @@ export default [
     name: 'Friday',
     image:
       'https://images.unsplash.com/photo-1503122703469-3dbbe39d0d1c?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470',
-    color: '#000000',
+    color: '#ADD8E6',
     power1: '#FFFFFF',
     power2: '#0000FF',
     power3: '#ADD8E6',
@@ -193,7 +193,7 @@ export default [
     name: 'Saturday',
     image:
       'https://images.unsplash.com/photo-1515420043797-69a1bc7ee7a0?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587',
-    color: '#FFFFFF',
+    color: '#800080',
     power1: '#000000',
     power2: '#4169E1',
     power3: '#0000FF',
